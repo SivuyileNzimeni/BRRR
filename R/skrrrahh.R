@@ -45,7 +45,7 @@
 #' options(error = function() {skrrrahh(34)})
 #' }
 #'@export
-skrrrahh <- function(sound=27, expr = NULL) {
+skrrrahh <- function(sound=12, expr = NULL) {
   expr
   sounds <- skrrrahh_sounds()
   sound_path <- NULL
